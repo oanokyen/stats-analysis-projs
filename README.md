@@ -1,1 +1,3 @@
-# Dataset_a_Week
+# Dataset A Week
+
+Clean, Analyse & Learn. 
