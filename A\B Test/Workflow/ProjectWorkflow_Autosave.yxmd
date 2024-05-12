@@ -1,0 +1,2058 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>round-roaster-stores (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_22c294bbb6114589b90f04d4b7193cb3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RoundRoastersTransactions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="SKU" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_ab04f8bb275a4074b2f0a27c129507f0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="762" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_4a77302239844b57a0daedf3811a7bca_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1062" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sq_Ft" selected="False" />
+            <SelectField field="Region" selected="False" />
+            <SelectField field="Latitude" selected="False" />
+            <SelectField field="Longitude" selected="False" />
+            <SelectField field="Timezone" selected="False" />
+            <SelectField field="Sum_Sales" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="StoreID" selected="True" />
+            <SelectField field="Invoice Date" selected="True" />
+            <SelectField field="Gross Margin" selected="True" />
+            <SelectField field="Sales" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Invoice Number" selected="True" />
+            <Field field="Invoice Date" selected="True" />
+            <Field field="SKU" selected="True" />
+            <Field field="Category" selected="True" />
+            <Field field="Product" selected="True" />
+            <Field field="QTY" selected="True" />
+            <Field field="Size" selected="True" />
+            <Field field="Gross Margin" selected="True" />
+            <Field field="Sales" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Int16" />
+            <Field name="Invoice Number" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Int32" />
+            <Field name="Invoice Date" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="SKU" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Int16" />
+            <Field name="Category" size="8" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="String" />
+            <Field name="Product" size="18" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Byte" />
+            <Field name="Size" size="3" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="String" />
+            <Field name="Gross Margin" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Right_Name" selected="False" />
+            <SelectField field="Phone Number" selected="False" />
+            <SelectField field="Street Combined" selected="False" />
+            <SelectField field="Street 1" selected="False" />
+            <SelectField field="Street 2" selected="False" />
+            <SelectField field="Street 3" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="Postal Code" selected="False" />
+            <SelectField field="Country" selected="False" />
+            <SelectField field="Coordinates" selected="False" />
+            <SelectField field="Current Timezone Offset" selected="False" />
+            <SelectField field="Olson Timezone" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Sq_Ft" selected="True" />
+            <Field field="AvgMonthSales" selected="True" />
+            <Field field="Right_Name" selected="True" />
+            <Field field="Phone Number" selected="True" />
+            <Field field="Street Combined" selected="True" />
+            <Field field="Street 1" selected="True" />
+            <Field field="Street 2" selected="True" />
+            <Field field="Street 3" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Postal Code" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="Coordinates" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Timezone" selected="True" />
+            <Field field="Current Timezone Offset" selected="True" />
+            <Field field="Olson Timezone" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="Sq_Ft" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="AvgMonthSales" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int32" />
+            <Field name="Right_Name" size="35" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="14" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Street Combined" size="68" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="33" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="16" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="31" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="City" size="17" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="State" size="2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Postal Code" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int32" />
+            <Field name="Region" size="7" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Country" size="2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Coordinates" size="37" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Latitude" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Double" />
+            <Field name="Timezone" size="25" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Current Timezone Offset" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="Olson Timezone" size="29" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="462" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Invoice Date] &gt;= "2016-04-29" &amp;&amp; [Invoice Date] &lt;= "2016-07-21"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Invoice Date] &gt;= "2016-04-29" &amp;&amp; [Invoice Date] &lt;= "2016-07-21"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings>
+        <Position x="966" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="response">Sum_Gross Margin</Value>
+          <Value name="binary">False</Value>
+          <Value name="target" />
+          <Value name="group var">State</Value>
+          <Value name="se">True</Value>
+          <Value name="sd">False</Value>
+          <Value name="ci">False</Value>
+          <Value name="conf">95</Value>
+          <Value name="none">False</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Plot_of_Means.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="1014" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="response">Sum_Gross Margin</Value>
+          <Value name="binary">False</Value>
+          <Value name="target" />
+          <Value name="group var">Timezone</Value>
+          <Value name="se">True</Value>
+          <Value name="sd">False</Value>
+          <Value name="ci">False</Value>
+          <Value name="conf">95</Value>
+          <Value name="none">False</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Plot_of_Means.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="894" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="response">Sum_Gross Margin</Value>
+          <Value name="binary">False</Value>
+          <Value name="target" />
+          <Value name="group var">Region</Value>
+          <Value name="se">True</Value>
+          <Value name="sd">False</Value>
+          <Value name="ci">False</Value>
+          <Value name="conf">95</Value>
+          <Value name="none">False</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Plot_of_Means.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="954" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_5bfa7fd40ef24f16a4dbf97e9ddfa562_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1074" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_1f782f8d36124da987e35e967bf375f4_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1014" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_a7822492b5ca45e88470cab1d527d6ca_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="594" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Gross Margin" action="Sum" rename="Sum_Gross Margin" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="858" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="do target">False</Value>
+          <Value name="target">AvgMonthSales</Value>
+          <Value name="target level" />
+          <Value name="use fields">"Sq_Ft","AvgMonthSales","Latitude","Longitude","Sum_Gross Margin"</Value>
+          <Value name="Pearson">True</Value>
+          <Value name="Spearman">False</Value>
+          <Value name="Hoeffding">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="954" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_79213ffb72a34e419646167df6f19b35_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="954" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_bf70d136e10d491f965fdd933e391ce2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="234" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Timezone]=&quot;Pacific Standard Time&quot; THEN &quot;PST&quot; ELSEIF [Timezone]=&quot;Central Standard Time&quot; THEN &quot;CST&quot; ELSEIF [Timezone]=&quot;US Mountain Standard Time&quot; THEN &quot;MST&quot; ELSEIF [Timezone]=&quot;Mountain Standard Time&quot; THEN &quot;MST&quot; ELSE [Timezone] ENDIF&#xA;" field="Timezone" size="25" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Timezone = IF [Timezone]="Pacific Standard Time" THEN "PST" ELSEIF [Timezone]="C...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="282" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>treatment-stores (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Right_State" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="570" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Phone Number" selected="False" />
+            <SelectField field="Street Combined" selected="False" />
+            <SelectField field="Street 1" selected="False" />
+            <SelectField field="Street 2" selected="False" />
+            <SelectField field="Street 3" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="Postal Code" selected="False" />
+            <SelectField field="Country" selected="False" />
+            <SelectField field="Coordinates" selected="False" />
+            <SelectField field="Current Timezone Offset" selected="False" />
+            <SelectField field="Olson Timezone" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Right_State" selected="True" rename="State" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Timezone]=&quot;Pacific Standard Time&quot; THEN &quot;PST&quot; ELSEIF [Timezone]=&quot;Central Standard Time&quot; THEN &quot;CST&quot; ELSEIF [Timezone]=&quot;US Mountain Standard Time&quot; THEN &quot;MST&quot; ELSEIF [Timezone]=&quot;Mountain Standard Time&quot; THEN &quot;MST&quot; ELSE [Timezone] ENDIF&#xA;" field="Timezone" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Timezone = IF [Timezone]="Pacific Standard Time" THEN "PST" ELSEIF [Timezone]="C...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="666" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="378" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Sq_Ft" selected="True" />
+            <Field field="AvgMonthSales" selected="True" />
+            <Field field="Phone Number" selected="True" />
+            <Field field="Street Combined" selected="True" />
+            <Field field="Street 1" selected="True" />
+            <Field field="Street 2" selected="True" />
+            <Field field="Street 3" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="Postal Code" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="Coordinates" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Timezone" selected="True" />
+            <Field field="Current Timezone Offset" selected="True" />
+            <Field field="Olson Timezone" selected="True" />
+            <Field field="Name" selected="True" />
+            <Field field="Right_State" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int16" />
+            <Field name="Sq_Ft" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int16" />
+            <Field name="AvgMonthSales" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int16" />
+            <Field name="Phone Number" size="14" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Street Combined" size="42" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="26" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Byte" />
+            <Field name="Street 3" size="25" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="City" size="16" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int32" />
+            <Field name="Region" size="7" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Country" size="2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Coordinates" size="37" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Latitude" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Double" />
+            <Field name="Timezone" size="22" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Current Timezone Offset" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int16" />
+            <Field name="Olson Timezone" size="25" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Name" size="28" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Right_State" size="2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>round-roaster-stores (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_03a61cff1ac8457aad40695a5cd28360_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RoundRoastersTransactions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="SKU" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_e0130a20db114657ab469f1589e65bec_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1050" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sq_Ft" selected="False" input="Left_" />
+                <SelectField field="Left_Latitude" selected="False" input="Left_" />
+                <SelectField field="Left_Longitude" selected="False" input="Left_" />
+                <SelectField field="Left_Timezone" selected="False" input="Left_" />
+                <SelectField field="Left_State" selected="False" input="Left_" />
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="StoreID" selected="True" />
+            <SelectField field="Invoice Number" selected="True" />
+            <SelectField field="Invoice Date" selected="True" />
+            <SelectField field="QTY" selected="True" />
+            <SelectField field="Gross Margin" selected="True" />
+            <SelectField field="Sales" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Invoice Number" selected="True" />
+            <Field field="Invoice Date" selected="True" />
+            <Field field="SKU" selected="True" />
+            <Field field="Category" selected="True" />
+            <Field field="Product" selected="True" />
+            <Field field="QTY" selected="True" />
+            <Field field="Size" selected="True" />
+            <Field field="Gross Margin" selected="True" />
+            <Field field="Sales" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Int16" />
+            <Field name="Invoice Number" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Int32" />
+            <Field name="Invoice Date" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="SKU" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Int16" />
+            <Field name="Category" size="8" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="String" />
+            <Field name="Product" size="18" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Byte" />
+            <Field name="Size" size="3" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="String" />
+            <Field name="Gross Margin" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\RoundRoastersTransactions.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Right_Name" selected="False" />
+            <SelectField field="Phone Number" selected="False" />
+            <SelectField field="Street Combined" selected="False" />
+            <SelectField field="Street 1" selected="False" />
+            <SelectField field="Street 2" selected="False" />
+            <SelectField field="Street 3" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="Postal Code" selected="False" />
+            <SelectField field="Country" selected="False" />
+            <SelectField field="Coordinates" selected="False" />
+            <SelectField field="Current Timezone Offset" selected="False" />
+            <SelectField field="Olson Timezone" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Sq_Ft" selected="True" />
+            <Field field="AvgMonthSales" selected="True" />
+            <Field field="Right_Name" selected="True" />
+            <Field field="Phone Number" selected="True" />
+            <Field field="Street Combined" selected="True" />
+            <Field field="Street 1" selected="True" />
+            <Field field="Street 2" selected="True" />
+            <Field field="Street 3" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Postal Code" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="Coordinates" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Timezone" selected="True" />
+            <Field field="Current Timezone Offset" selected="True" />
+            <Field field="Olson Timezone" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="Sq_Ft" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="AvgMonthSales" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int32" />
+            <Field name="Right_Name" size="35" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="14" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Street Combined" size="68" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="33" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="16" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="31" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="City" size="17" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="State" size="2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Postal Code" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int32" />
+            <Field name="Region" size="7" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Country" size="2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Coordinates" size="37" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Latitude" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Double" />
+            <Field name="Timezone" size="25" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+            <Field name="Current Timezone Offset" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="Olson Timezone" size="29" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\round-roaster-stores (1).csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="414" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Invoice Date] &gt;= "2015-02-06" &amp;&amp; [Invoice Date] &lt;= "2016-07-22"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Invoice Date] &gt;= "2015-02-06" &amp;&amp; [Invoice Date] &lt;= "2016-07-22"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="582" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Week" action="CountDistinct" rename="CountDistinct_Week" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="222" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Timezone]=&quot;Pacific Standard Time&quot; THEN &quot;PST&quot; ELSEIF [Timezone]=&quot;Central Standard Time&quot; THEN &quot;CST&quot; ELSEIF [Timezone]=&quot;US Mountain Standard Time&quot; THEN &quot;MST&quot; ELSEIF [Timezone]=&quot;Mountain Standard Time&quot; THEN &quot;MST&quot; ELSE [Timezone] ENDIF&#xA;" field="Timezone" size="25" type="String" />
+            <FormulaField expression="&quot;C&quot;" field="TestGroup" size="64" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Timezone = IF [Timezone]="Pacific Standard Time" THEN "PST" ELSEIF [Timezone]="C...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="270" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>treatment-stores (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Right_State" size="254" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="558" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Phone Number" selected="False" />
+            <SelectField field="Street Combined" selected="False" />
+            <SelectField field="Street 1" selected="False" />
+            <SelectField field="Street 2" selected="False" />
+            <SelectField field="Street 3" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="Postal Code" selected="False" />
+            <SelectField field="Country" selected="False" />
+            <SelectField field="Coordinates" selected="False" />
+            <SelectField field="Current Timezone Offset" selected="False" />
+            <SelectField field="Olson Timezone" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Right_State" selected="True" rename="State" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Timezone]=&quot;Pacific Standard Time&quot; THEN &quot;PST&quot; ELSEIF [Timezone]=&quot;Central Standard Time&quot; THEN &quot;CST&quot; ELSEIF [Timezone]=&quot;US Mountain Standard Time&quot; THEN &quot;MST&quot; ELSEIF [Timezone]=&quot;Mountain Standard Time&quot; THEN &quot;MST&quot; ELSE [Timezone] ENDIF&#xA;" field="Timezone" size="22" type="String" />
+            <FormulaField expression="&quot;T&quot;" field="TestGroup" size="64" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Timezone = IF [Timezone]="Pacific Standard Time" THEN "PST" ELSEIF [Timezone]="C...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="654" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="402" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Sq_Ft" selected="True" />
+            <Field field="AvgMonthSales" selected="True" />
+            <Field field="Phone Number" selected="True" />
+            <Field field="Street Combined" selected="True" />
+            <Field field="Street 1" selected="True" />
+            <Field field="Street 2" selected="True" />
+            <Field field="Street 3" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="Postal Code" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="Coordinates" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Timezone" selected="True" />
+            <Field field="Current Timezone Offset" selected="True" />
+            <Field field="Olson Timezone" selected="True" />
+            <Field field="Name" selected="True" />
+            <Field field="Right_State" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int16" />
+            <Field name="Sq_Ft" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int16" />
+            <Field name="AvgMonthSales" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int16" />
+            <Field name="Phone Number" size="14" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Street Combined" size="42" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="26" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Byte" />
+            <Field name="Street 3" size="25" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="City" size="16" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int32" />
+            <Field name="Region" size="7" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Country" size="2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Coordinates" size="37" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Latitude" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Double" />
+            <Field name="Timezone" size="22" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Current Timezone Offset" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="Int16" />
+            <Field name="Olson Timezone" size="25" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+            <Field name="Name" size="28" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="V_String" />
+            <Field name="Right_State" size="2" source="File: C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\treatment-stores (1).csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="FLOOR(DateTimeDiff([Invoice Date],&quot;2015-02-06&quot;,'days')/7+1)" field="Week" size="8" type="Int64" />
+            <FormulaField expression="DateTimeAdd(&quot;2015-02-06&quot;,7*([Week]-1),'days')" field="Week_Start" size="10" type="Date" />
+            <FormulaField expression="DateTimeAdd([Week_Start],6,'days')" field="Week_End" size="10" type="Date" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Week = FLOOR(DateTimeDiff([Invoice Date],"2015-02-06",'days')/7+1)
+Week_Start = ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="654" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>CountDistinct_Week</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-29 17:24:50</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>76</Operand>
+              <StartDate>2019-12-29 17:24:50</StartDate>
+              <EndDate>2019-12-29 17:24:50</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[CountDistinct_Week] &gt;= 76</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_071dc5ecc576424da15a95050e2ff583_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_01a6e50b5f194fb8ae8c7f09c9d32545_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="822" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CountDistinct_Week" selected="False" input="Left_" />
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="906" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Week" action="GroupBy" rename="Week" />
+            <SummarizeField field="Week_Start" action="GroupBy" rename="Week_Start" />
+            <SummarizeField field="Week_End" action="GroupBy" rename="Week_End" />
+            <SummarizeField field="QTY" action="Sum" rename="Sum_QTY" />
+            <SummarizeField field="Gross Margin" action="Sum" rename="Sum_Gross Margin" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Invoice Number" action="CountDistinct" rename="Transactions" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="990" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_b35047f1f2124c95998cdca84da12dc3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1230" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\mdf30\Documents\Udacity\MyCompletedProjects\PredictiveAnalyticsForBusinessNanodegree\ABTestANewMenuLaunch\WeeklyTransactionData.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>WeeklyTransactionData.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1134" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_07a5bd14cd2a4e10b789d0e1b69975d8_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="306" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[StoreID] NOT IN (1664, 1675, 1696, 1700, 1712, 2288, 2293, 2301, 2322, 2341)</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[StoreID] NOT IN (1664, 1675, 1696, 1700, 1712, 2288, 2293, 2301, 2322, 2341)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_7cf10b6f3469419db16f0c07042e3f23_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="330" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_3e599bf7b5eb455ea8fe008799fe3b33_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mdf30\AppData\Local\Temp\Engine_14556_275b5db085954cbd806d159a1fe73ce1_\Engine_5912_79ce46df8f314c999071d122b30db835_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="18" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="17" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="16" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="25" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Graph Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Graph Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Graph Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Correlation Matrix" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Join" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Join" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="True" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="44" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="44" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="62" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="True" />
+      <Destination ToolID="62" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="True" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="False" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Join" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="True" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="True" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ProjectWorkflow_Autosave</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
